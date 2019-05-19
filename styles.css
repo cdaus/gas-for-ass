@@ -1,0 +1,45 @@
+*, body {
+	font-family: Open Sans;
+	text-align: center;
+	margin: 0;
+	color: #141414;
+	letter-spacing: 2px;
+}
+
+section {
+	min-height: 100vh;
+}
+
+.flex {
+	display: flex;
+}
+
+.center {
+	justify-content: space-around;
+	align-items: center;
+}
+
+.hero {
+	background-color: #F9F9F9;
+}
+
+.title {
+	padding: 25px;
+	margin: 25px;
+	font-size: 50px;
+	font-weight: 100px;
+}
+
+.email {
+	border: 1px solid #141414;
+	background-color: #F9F9F9;
+	padding: 10px 35px;
+}
+
+.button {
+	padding: 10 px 25 px;
+	border: 1px;
+	font-size: 16px
+	color: #141414;
+	background-color: #F9F9F9
+}
