@@ -1,0 +1,43 @@
+.nav {
+	height: 100px;
+	background-color: #141414;
+	position: absolute;
+	width: 100%;
+}
+
+.menu {
+	display: none;
+}
+
+.logo {
+	width: 100px;
+}
+
+.hidden {
+	display: none !important;
+}
+
+@media only screen and (max-width : 480px) {
+  .nav {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+  }
+
+  .menu {
+  	display: block;
+  	position: fixed;
+  	top: 0;
+  	right: 0;
+  	padding: 25px;
+  	z-index: 2;
+  	background-color: #f9f9f9;
+  }
+
+  .logo {
+	width: 100px;
+	}
+}
